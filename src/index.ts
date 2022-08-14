@@ -1,10 +1,13 @@
-import { countUniqueValues, countUniqueValuesMySolution, countUniqueValuesMySolution2 } from './problems/countUniqueValues';
-import { maxSubArraySum, maxSubArraySumNaive } from './problems/slidingWindow';
-import { sumZero, sumZeroMyVersion } from './problems/mulitPointer';
+import { areThereDuplicates } from './problems/areThereDuplicates';
+import { sameFrequency } from './problems/sameFrequency';
+// import { countUniqueValues, countUniqueValuesMySolution, countUniqueValuesMySolution2 } from './problems/countUniqueValues';
+// import { maxSubArraySum, maxSubArraySumNaive } from './problems/slidingWindow';
+// import { sumZero, sumZeroMyVersion } from './problems/mulitPointer';
 
-import { isPalindrome } from './leetCodeProblems/palidromeNumber';
-import { twoSum } from './leetCodeProblems/twoSum';
-import { validAnagramMySolution } from './problems/validAnagram';
+// import { binSearch } from './problems/binSearch';
+// import { isPalindrome } from './leetCodeProblems/palidromeNumber';
+// import { twoSum } from './leetCodeProblems/twoSum';
+// import { validAnagramMySolution } from './problems/validAnagram';
 
 // import { addUpTo, addUpTo2, myAddUpTo } from "./bigO/addUpTo";
 // import { arrayProblem1_frequencyCounter, arrayProblem1_naiveSolution } from './problems/arrayProblem1';
@@ -47,5 +50,13 @@ const {log} = console;
 
 // log(twoSum([1, 5, 9, 5, 9, 1, 2, 7, 8, 9], 9))
 // log(twoSum([3,2,3], 6))
+// const inputArr = [1, 2, 3, 4, 5, 6, 7, 8]
+// const searchNumber = 6;
+// const results = binSearch(inputArr, searchNumber);
+// log(results)
+// log(isPalindrome(1000030001));
 
-log(isPalindrome(1000030001));
+// log(sameFrequency(3589578, 5879385))
+// log(sameFrequency(34,14))
+
+log(areThereDuplicates('a', 'b', 'c', 'a'))
